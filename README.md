@@ -1,5 +1,6 @@
 ## Comming soon...?
 Python 3.11では動作しない
+あとcudaは12.x系には対応してない(onnxruntimeのdev版ならいけるかも)
 
 ## ファイル一覧
 - main.py
