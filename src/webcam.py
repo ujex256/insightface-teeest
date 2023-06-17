@@ -9,7 +9,7 @@ app = insightface.app.FaceAnalysis(
     name="buffalo_s",
     # CUDA最強
     providers=["CUDAExecutionProvider", "CPUExecutionProvider"],
-    allowed_modules=["detection", "landmark_2d_106", "genderage"]
+    allowed_modules=["detection", "genderage"]
 )
 app.prepare(ctx_id=0)
 
